@@ -1,5 +1,6 @@
 const asyncHandler = require('express-async-handler');
 const Goal = require('../models/goalModel');
+const { default: mongoose } = require('mongoose');
 
 // @desc    Get goals
 // @route   GET /api/goals
